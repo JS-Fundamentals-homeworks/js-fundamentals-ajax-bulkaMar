@@ -18,7 +18,6 @@ getUserButton.addEventListener("click", function () {
       for (let i in users) {
         if (userInputValue == users[i].name) {
           userCity.innerHTML = `${users[i].address.city}`;
-          break;
         }
       }
     });
